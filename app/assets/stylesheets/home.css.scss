@@ -1,3 +1,7 @@
+body, h1,h2,h3,h4,h5,h6,p,a{
+  font-family: Montserrat;
+  font-weight: 400;
+}
 .logo{
   width: 200px;
 }
@@ -5,9 +9,17 @@
 .section{
   margin: 40px 0px;
 }
+
+ul{
+  list-style-image: image-url('chulito.png');
+}
 /*-----LAYOUT----*/
 .allign-center{
   margin: 0px auto;
+}
+
+.display-inline{
+  display: inline-block;
 }
 
 /*----FONT----*/

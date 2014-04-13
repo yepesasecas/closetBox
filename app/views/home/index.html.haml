@@ -7,16 +7,16 @@
 .section#sign_in
   .container
     .row
-      .col-xs-4
+      .col-xs-6.col-md-4.col-md-offset-1
         %p.form-copy.text-right Rápido y seguro. Solicita tu pedido en menos de un minuto, nosotros recogemos, almacenamos y entregamos tus cosas, así nunca tendrás que moverte de tu apartamento.
-      .form.col-xs-8.background-blue-lighter.border.arrow_box
+      .form.col-xs-6.col-md-4.background-blue-lighter.border.arrow_box
         =render 'form'
 
 .section#steps
   .container
     .row
       .col-xs-12.text-center
-        %h2.padding-bottom-20 --------- Como funciona? ---------
+        %h1.padding-bottom-20 Como funciona?
       .col-xs-3.text-center
         = image_tag 'Funcion1.png'
         %h4 1. Solicita nuestras cajas
@@ -34,19 +34,22 @@
         %h4 4. Quieres algo de regreso? Solicítalo
         %p En menos de un día y con un par de clics llevaremos tus pertenencias a la puerta de tu casa u oficina.
       
-/ .section#security
-/   .container
-/     .row
-/       .col-xs-12.text-center
-/         %h2 --------- Tus cosas seguras ---------
-/       .col-xs-4.text-center
-/         %p Imagen de la caja
-/       .col-xs-4.text-center
-/         %p frase
-/         %ul
-/           %li lorem
-/           %li lorem
-/           %li lorem
+.section#security
+  .container
+    .row
+      .col-xs-12.text-center
+        %h1.padding-bottom-20 Tus cosas seguras
+      .col-xs-6.col-md-4.col-md-offset-2.text-center
+        =image_tag 'Caja.png'
+      .col-xs-6.col-md-4
+        %h4 Hemos elegido un tipo de caja estándar para hacer nuestros servicios más sencillos para ti.
+        %ul
+          %li
+            %p Guarda Aproximadamente 18 pares de zapatos, 100 libros o 45 Camisetas. 
+          %li 
+            %p Accede al inventario de tus pertenencias desde nuestra pagina Web.
+          %li 
+            %p Aseguradas en Bodegas Profesionales con Monitoreo 24/7.
 
 / .section#prices
 /   .container

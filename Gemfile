@@ -11,7 +11,7 @@ gem 'cancan'
 gem 'devise'
 gem 'haml-rails'
 gem 'rolify'
-gem 'thin'
+gem 'unicorn'
 
 group :development do
   # gem 'better_errors'
