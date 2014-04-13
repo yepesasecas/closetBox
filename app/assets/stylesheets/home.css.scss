@@ -1,0 +1,101 @@
+.logo{
+  width: 200px;
+}
+
+.section{
+  margin: 40px 0px;
+}
+/*-----LAYOUT----*/
+.allign-center{
+  margin: 0px auto;
+}
+
+/*----FONT----*/
+.text-right{
+  text-align: right;
+}
+.text-size-3em{
+  font-size: 50px;
+}
+
+.text-white{
+  color: white;
+}
+
+.text-black{
+  color: #3C5F78;
+}
+
+.padding-20{
+  padding: 20px 0px;
+}
+
+.padding-bottom-20{
+  padding-bottom: 40px;
+}
+/*------BACKGROUND------*/
+.background-blue{
+  background-color: #22A6FF;
+}
+
+.background-blue-lighter{
+  background-color: #31B1F6;
+}
+
+.background-orange{
+  background-color: #EB5E2B;
+}
+
+.background-orange-darker{
+  background-color: #BC481F;
+}
+
+.border{
+  border: 1px solid #3C5F78;
+}
+
+/*-----CLASSES-----*/
+.hero-copy{
+  text-shadow: 4px 4px #333;
+  max-height: 600px;
+  padding: 300px 0px 300px 0px;
+}
+.img-background{
+  background-image: image-url('background-hero.png');
+}
+
+.form{
+  @extend .allign-center;
+  padding: 30px 20px;
+}
+.form-copy{
+  padding-right: 10px;
+}
+
+/*----ARROW CLASSES-------*/
+.arrow_box {
+  position: relative;
+}
+.arrow_box:after, .arrow_box:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(49, 177, 246, 0);
+  border-right-color: #31B1F6;
+  border-width: 20px;
+  margin-top: -20px;
+}
+.arrow_box:before {
+  border-color: rgba(60, 95, 120, 0);
+  border-right-color: #3C5F78;
+  border-width: 21px;
+  margin-top: -21px;
+}

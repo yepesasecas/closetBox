@@ -1,62 +1,70 @@
-.section#hero
-	.container
-		.row
-			.col-xs-12.text-center
-				%h1 TIENES MUCHAS COSAS Y POCO ESPACIO?
+.section#hero.img-background
+  .container
+    .row
+      .hero-copy.col-xs-12.text-center.text-white
+        %h1.text-size-3em TIENES MUCHAS COSAS Y POCO ESPACIO?
 
 .section#sign_in
-	.container
-		.row
-			.col-xs-4
-				%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			.col-xs-8
-				%p Formulario
+  .container
+    .row
+      .col-xs-4
+        %p.form-copy.text-right Rápido y seguro. Solicita tu pedido en menos de un minuto, nosotros recogemos, almacenamos y entregamos tus cosas, así nunca tendrás que moverte de tu apartamento.
+      .form.col-xs-8.background-blue-lighter.border.arrow_box
+        =render 'form'
 
 .section#steps
-	.container
-		.row
-			.col-xs-12.text-center
-				%h2 Como funciona?
-			.col-xs-3.text-center
-				%p Paso 1
-			.col-xs-3.text-center
-				%p Paso 2
-			.col-xs-3.text-center
-				%p Paso 3
-			.col-xs-3.text-center
-				%p Paso 4
-			
-.section#security
-	.container
-		.row
-			.col-xs-12.text-center
-				%h2 Tus cosas seguras
-			.col-xs-4.text-center
-				%p Imagen de la caja
-			.col-xs-4.text-center
-				%p frase
-				%ul
-					%li lorem
-					%li lorem
-					%li lorem
+  .container
+    .row
+      .col-xs-12.text-center
+        %h2.padding-bottom-20 --------- Como funciona? ---------
+      .col-xs-3.text-center
+        = image_tag 'Funcion1.png'
+        %h4 1. Solicita nuestras cajas
+        %p Nuestros colaboradores llevaran gratis cajas plásticas de alta calidad a su casa u oficina para que guardes tus objetos.
+      .col-xs-3.text-center
+        = image_tag 'Funcion2.png'
+        %h4 2. Fotos e inventario de tus objetos
+        %p Crea un catalogo virtual de lo que guardaste. Siempre sabras que tienes guardado.
+      .col-xs-3.text-center
+        = image_tag 'Funcion3.png'
+        %h4 3. Las recogemos y almacenamos
+        %p Llevaremos las cajas con tus pertenencias a nuestras bodegas de seguridad.
+      .col-xs-3.text-center
+        = image_tag 'Funcion4.png'
+        %h4 4. Quieres algo de regreso? Solicítalo
+        %p En menos de un día y con un par de clics llevaremos tus pertenencias a la puerta de tu casa u oficina.
+      
+/ .section#security
+/   .container
+/     .row
+/       .col-xs-12.text-center
+/         %h2 --------- Tus cosas seguras ---------
+/       .col-xs-4.text-center
+/         %p Imagen de la caja
+/       .col-xs-4.text-center
+/         %p frase
+/         %ul
+/           %li lorem
+/           %li lorem
+/           %li lorem
 
-.section#prices
-	.container
-		.row
-			.col-xs-12.text-center
-				%h2 Precios
-				%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			.col-xs-3.text-center
-				%p Precio 1
-			.col-xs-3.text-center
-				%p Precio 2
-			.col-xs-3.text-center
-				%p Precio 3
-				
-.section#sign_in_again
-	.container
-		.row
-			.col-xs-4
-				%p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			.col-xs-8
-				%p Formulario
+/ .section#prices
+/   .container
+/     .row
+/       .col-xs-12.text-center
+/         %h2 --------- Precios ---------
+/         %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+/       .col-xs-3.text-center
+/         %p Precio 1
+/       .col-xs-3.text-center
+/         %p Precio 2
+/       .col-xs-3.text-center
+/         %p Precio 3
+        
+/ .section#sign_in_again
+/   .container
+/     .row
+/       .col-xs-4
+/         %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+/       .col-xs-8
+/         %p Formulario

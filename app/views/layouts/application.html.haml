@@ -7,9 +7,13 @@
     = stylesheet_link_tag 'application', media: 'all'
     = javascript_include_tag 'application'
     = csrf_meta_tags
-  %body
+  %body.background-blue.text-white
     %header
       = render 'layouts/navigation'
     %main{:role => "main"}
       = render 'layouts/messages'
       = yield
+    %footer.background-orange.padding-20.text-center
+      .container
+        %p ClosetBox es un producto 100% Colombiano. Todos sus Derechos Reservados
+        %p No dudes en llamarnos al 314 854 6543
