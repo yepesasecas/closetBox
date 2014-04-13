@@ -79,4 +79,5 @@ ClosetBox::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   config.assets.initialize_on_precompile = false
+  config.assets.compile=true
 end
