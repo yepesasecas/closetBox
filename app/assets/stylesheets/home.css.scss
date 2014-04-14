@@ -7,13 +7,14 @@ body, h1,h2,h3,h4,h5,h6,p,a{
 }
 
 .section{
-  margin: 40px 0px;
+  margin: 60px 0px;
 }
 
 ul{
   list-style-image: image-url('chulito.png');
 }
 /*-----LAYOUT----*/
+
 .allign-center{
   margin: 0px auto;
 }
@@ -26,6 +27,11 @@ ul{
 .text-right{
   text-align: right;
 }
+
+.text-left{
+  text-align: left;
+}
+
 .text-size-3em{
   font-size: 50px;
 }
@@ -38,6 +44,10 @@ ul{
   color: #3C5F78;
 }
 
+.text-orange{
+  color: #EB5E2B;
+}
+
 .padding-20{
   padding: 20px 0px;
 }
@@ -46,6 +56,10 @@ ul{
   padding-bottom: 40px;
 }
 /*------BACKGROUND------*/
+.background-white{
+  background-color: #FFFFFF;
+}
+
 .background-blue{
   background-color: #22A6FF;
 }
@@ -78,10 +92,19 @@ ul{
 
 .form{
   @extend .allign-center;
+  margin-top: 30px;
   padding: 30px 20px;
 }
 .form-copy{
-  padding-right: 10px;
+  padding-right: 25px;
+}
+
+.background-box{
+  background-image: image-url('SiluetaCaja.png');
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 150px;
+  padding-top: 40px;
 }
 
 /*----ARROW CLASSES-------*/
