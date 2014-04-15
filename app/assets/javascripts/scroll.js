@@ -5,5 +5,6 @@ $(document).ready(function(){
     $('html, body').animate({
         scrollTop: $(target).offset().top - 51
     }, 1000);
+    $(".navbar-collapse").collapse('hide');
   });
 });
