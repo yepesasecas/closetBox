@@ -53,15 +53,15 @@ ul{
 }
 
 .padding-bottom-20{
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 /*------BACKGROUND------*/
 .background-white{
-  background-color: #FFFFFF;
+  background-color: #EFF8FD;
 }
 
 .background-blue{
-  background-color: #22A6FF;
+  background-color: #22A6E1;
 }
 
 .background-blue-lighter{
@@ -81,13 +81,26 @@ ul{
 }
 
 /*-----CLASSES-----*/
+.rayita{
+  background-image: image-url('rayita.png');
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.rayita-naranja{
+  background-image: image-url('rayitaNaranja.png');
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
 .hero-copy{
   text-shadow: 4px 4px #333;
   max-height: 600px;
-  padding: 300px 0px 300px 0px;
+  padding: 200px 0px 200px 0px;
 }
 .img-background{
-  background-image: image-url('background-hero.png');
+  background-image: image-url('background-hero4.png');
+
 }
 
 .form{
@@ -96,7 +109,7 @@ ul{
   padding: 30px 20px;
 }
 .form-copy{
-  padding-right: 25px;
+  padding-right: 35px;
 }
 
 .background-box{
@@ -105,6 +118,11 @@ ul{
   background-position:center;
   height: 150px;
   padding-top: 40px;
+}
+
+.last-oportunity{
+  margin-top: -10px;
+  margin-bottom: 30px;
 }
 
 .plan{

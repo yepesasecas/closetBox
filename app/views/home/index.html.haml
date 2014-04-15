@@ -1,4 +1,4 @@
-.section#hero.img-background
+.section#hero.img-background.background-blue
   .container
     .row
       .hero-copy.col-xs-12.text-center.text-white
@@ -8,16 +8,16 @@
   .container
     .row
       .col-xs-6.col-md-4.col-md-offset-1.form-copy
-        %h3.text-right Registrate
+        %h3.text-right Regístrate
         %p.text-right 
-          Rápido y seguro. Solicita tu pedido en menos de un minuto, nosotros recogemos, almacenamos y entregamos tus cosas, así nunca tendrás que moverte de tu apartamento.
+          Solicita tu pedido en menos de un minuto, nosotros recogemos, almacenamos y entregamos tus cosas, así nunca tendrás que moverte de tu apartamento.
       .form.col-xs-6.col-md-4.background-blue-lighter.border.arrow_box
         =render 'form'
-%hr/ 
+ 
 .section#steps
   .container
     .row
-      .col-xs-12.text-center
+      .col-xs-12.text-center.rayita
         %h1.padding-bottom-20 Como funciona?
       .col-xs-3.text-center
         = image_tag 'Funcion1.png'
@@ -35,12 +35,12 @@
         = image_tag 'Funcion4.png'
         %h4 4. Quieres algo de regreso? Solicítalo
         %p En menos de un día y con un par de clics llevaremos tus pertenencias a la puerta de tu casa u oficina.
-%hr/ 
+
 .section#security
   .container
     .row
       .col-xs-12.text-center
-        %h1.padding-bottom-20 Tus cosas seguras
+        %h1.padding-bottom-20.rayita Tus cosas seguras
       .col-xs-6.col-md-4.col-md-offset-2.text-center
         =image_tag 'Caja.png'
       .col-xs-6.col-md-4
@@ -57,7 +57,7 @@
   .container
     .row
       .col-xs-12.text-center
-        %h1.padding-bottom-20.text-orange Precios
+        %h1.padding-bottom-20.text-orange.rayita-naranja Precios
         %p Precios claros, sin tarifas ocultas. Paga solo lo que utilices.
       .col-xs-4.text-center
         %h4 Plan 1
@@ -110,10 +110,9 @@
 .section#sign_in_again
   .container
     .row
-      %h1.text-center ¡Ultima oportunidad de registrarte!
-      .col-xs-6.col-md-4.col-md-offset-1
-        %p.form-copy.text-right 
-          Aqui va el canguroooo
-          
+      %h1.text-center.last-oportunity ¡Última oportunidad de registrarte!
+      .col-xs-6.col-md-3.col-md-offset-1
+        / %p.form-copy.text-right 
+        =image_tag 'canguro.png'
       .form.col-xs-6.col-md-4.background-blue-lighter.border.arrow_box
         =render 'form'
