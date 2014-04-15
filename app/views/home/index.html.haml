@@ -9,8 +9,7 @@
     .row
       .col-xs-12.col-sm-4.col-md-4.col-md-offset-1.form-copy
         %h3.text-right Regístrate
-        %p.text-right 
-          Solicita tu pedido en menos de un minuto, nosotros recogemos, almacenamos y entregamos tus cosas, así nunca tendrás que moverte de tu apartamento.
+        %p.text-right.text-light Solicita tu pedido en menos de un minuto, nosotros recogemos, almacenamos y entregamos tus cosas, así nunca tendrás que moverte de tu apartamento.
       .form.col-xs-12.col-sm-8.col-md-4.background-blue-lighter.border.arrow_box
         =render 'form'
  
@@ -21,20 +20,20 @@
         %h1.padding-bottom-20 Como funciona?
       .col-xd-12.col-sm-3.text-center
         = image_tag 'Funcion1.png'
-        %h4 1. Solicita nuestras cajas
-        %p Nuestros colaboradores llevaran gratis cajas plásticas de alta calidad a su casa u oficina para que guardes tus objetos.
+        %h4.fixed-height 1. Solicita nuestras cajas
+        %p.text-light Nuestros colaboradores llevaran gratis cajas plásticas de alta calidad a su casa u oficina para que guardes tus objetos.
       .col-xd-12.col-sm-3.text-center
         = image_tag 'Funcion2.png'
-        %h4 2. Fotos e inventario de tus objetos
-        %p Crea un catalogo virtual de lo que guardaste. Siempre sabras que tienes guardado.
+        %h4.fixed-height 2. Fotos e inventario de tus objetos
+        %p.text-light Crea un catalogo virtual de lo que guardaste. Siempre sabras que tienes guardado.
       .col-xd-12.col-sm-3.text-center
         = image_tag 'Funcion3.png'
-        %h4 3. Las recogemos y almacenamos
-        %p Llevaremos las cajas con tus pertenencias a nuestras bodegas de seguridad.
+        %h4.fixed-height 3. Las recogemos y almacenamos
+        %p.text-light Llevaremos las cajas con tus pertenencias a nuestras bodegas de seguridad.
       .col-xd-12.col-sm-3.text-center
         = image_tag 'Funcion4.png'
-        %h4 4. Quieres algo de regreso? Solicítalo
-        %p En menos de un día y con un par de clics llevaremos tus pertenencias a la puerta de tu casa u oficina.
+        %h4.fixed-height 4. Quieres algo de regreso? Solicítalo
+        %p.text-light En menos de un día y con un par de clics llevaremos tus pertenencias a la puerta de tu casa u oficina.
 
 .section#security
   .container
@@ -47,23 +46,23 @@
         %h4 Hemos elegido un tipo de caja estándar para hacer nuestros servicios más sencillos para ti.
         %ul
           %li
-            %p Guarda Aproximadamente 18 pares de zapatos, 100 libros o 45 Camisetas. 
+            %p.text-light Guarda Aproximadamente 18 pares de zapatos, 100 libros o 45 Camisetas. 
           %li 
-            %p Accede al inventario de tus pertenencias desde nuestra pagina Web.
+            %p.text-light Accede al inventario de tus pertenencias desde nuestra pagina Web.
           %li 
-            %p Aseguradas en Bodegas Profesionales con Monitoreo 24/7.
+            %p.text-light Aseguradas en Bodegas Profesionales con Monitoreo 24/7.
 
 .section#prices.background-white.text-black
   .container
     .row
       .col-xd-12.text-center
-        %h1.padding-bottom-20.text-orange.rayita-naranja Precios
+        %h3.padding-bottom-20.text-orange.rayita-naranja Precios
         %p Precios claros, sin tarifas ocultas. Paga solo lo que utilices.
       .col-xd-12.col-sm-4.text-center
-        %h4 Plan 1
+        %h3 Plan 1
         .background-box
           %h2.text-white $16,000
-          %p.text-white Caja / Mes
+          %p.text-white.text-light Caja / Mes
         .plan
           %table.text-left.table
             %tr
@@ -76,10 +75,10 @@
               %td Transporte de Entrega: 
               %td.text-orange $20,000
       .col-xd-12.col-sm-4.text-center
-        %h4 Plan 2
+        %h3 Plan 2
         .background-box
           %h2.text-white $13,000
-          %p.text-white Caja / Mes
+          %p.text-white.text-light Caja / Mes
         .plan
           %table.text-left.table
             %tr
@@ -92,10 +91,10 @@
               %td Transporte de Entrega: 
               %td.text-orange $20,000 + $5,000 por cada caja extra 
       .col-xd-12.col-sm-4.text-center
-        %h4 Plan 3
+        %h3 Plan 3
         .background-box
           %h2.text-white $10,000
-          %p.text-white Caja / Mes
+          %p.text-white.text-light Caja / Mes
         .plan
           %table.text-left.table
             %tr
@@ -107,6 +106,7 @@
             %tr
               %td Transporte de Entrega: 
               %td.text-orange $20,000 + $5,000 por cada caja extra 
+
 .section#sign_in_again
   .container
     .row

@@ -1,5 +1,5 @@
 body, h1,h2,h3,h4,h5,h6,p,a{
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-weight: 400;
 }
 .logo{
@@ -22,8 +22,20 @@ ul{
 .display-inline{
   display: inline-block;
 }
-
 /*----FONT----*/
+.text-bold{
+  font-weight: 700;
+}
+
+.text-normal{
+  font-weight: 400;
+}
+
+.text-light{
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
 .text-right{
   text-align: right;
 }
@@ -141,6 +153,10 @@ ul{
   }
 }
 
+li a:hover{
+  color: #EB5E2B !important;
+}
+
 /*----ARROW CLASSES-------*/
 .arrow_box {
   position: relative;
@@ -177,5 +193,8 @@ ul{
   }
   .text-size-3em{
     font-size: 3em;
+  }
+  .fixed-height{
+    height:50px;
   }
 }

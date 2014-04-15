@@ -10,7 +10,7 @@
       = image_tag 'logo.png', class:'logo'
       / = link_to 'Home', root_path, class: 'navbar-brand'
     .collapse.navbar-collapse
-      %ul.nav.navbar-nav
+      %ul.nav.navbar-nav.pull-right
         / = render 'layouts/navigation_links'
         %li=link_to "Como funciona", "#", {class: 'scrollit text-blue', 'data-target' => "#steps"}
         %li=link_to "Tus cosas seguras", "#", {class: 'scrollit text-blue', 'data-target' => "#security"}

@@ -1,0 +1,3 @@
+$('#contactModal').remove();
+$("body").append("<%= escape_javascript(render('modal')) %>");
+$('#contactModal').modal('show');
