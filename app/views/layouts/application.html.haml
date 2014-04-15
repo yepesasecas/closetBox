@@ -4,8 +4,8 @@
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
     %title= content_for?(:title) ? yield(:title) : 'Closet Box'
     %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Closet Box'}"}
-    %link{href: "http://fonts.googleapis.com/css?family=Montserrat:400,700", rel: "stylesheet", type: "text/css"}/
-    %link{href: "http://fonts.googleapis.com/css?family=Open+Sans:400,300,700", rel: "stylesheet", type: "text/css"}/
+    %link{href: "http://fonts.googleapis.com/css?family=Montserrat:400", rel: "stylesheet", type: "text/css"}/
+    %link{href: "http://fonts.googleapis.com/css?family=Open+Sans:300", rel: "stylesheet", type: "text/css"}/
     = stylesheet_link_tag 'application', media: 'all'
     = javascript_include_tag 'application'
     = csrf_meta_tags
