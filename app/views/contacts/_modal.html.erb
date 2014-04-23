@@ -1,11 +1,12 @@
 <div class="modal fade text-black" id="contactModal">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-body">
-        <h3 class="text-blue"><%= @message %></h3>
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 class="modal-title">Registrarse a ClosetBox.</h3>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      <div class="modal-body">
+        <p class="text-center"><%= @message %></p>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
