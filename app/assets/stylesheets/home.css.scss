@@ -106,8 +106,10 @@ ul{
 }
 
 .hero-copy{
-  padding: 100px 0px 100px 0px;
-  text-shadow: 4px 4px #333;
+  padding: 50px 0px 0px 0px;
+}
+.text-size-3em{
+  font-size: 24px;
 }
 
 .img-background{
@@ -188,6 +190,7 @@ li a:hover{
 
 @media (min-width: 768px) {
   .hero-copy{
+    text-shadow: 4px 4px #333;
     max-height: 600px;
     padding: 200px 0px 200px 0px;
   }
