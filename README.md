@@ -1,7 +1,6 @@
 Closetbox
 =========
-![Landing Screenshot](https://www.dropbox.com/s/a56pk0fpkdynmwz/Screenshot%202015-03-08%2020.03.34.png?dl=0)
-
+![Landing Screenshot](/public/img.png)
 
 URL
 --
